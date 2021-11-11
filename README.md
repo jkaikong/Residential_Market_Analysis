@@ -4,6 +4,6 @@ The realtor I work for is expecting to receive a Fremont residential market repo
 
 ### Project Process
 1. Preview and Data Cleaning
-2. Exploratory Data Analysis
+2. Exploratory Data Analysis (Currently working on)
 3. Price Prediction
 4. Data-Driven Suggestions
