@@ -1,7 +1,6 @@
 # Individual project - Fremont residential market analysis
 ### Why
 Benefits to Company:
-A residential market report can:
 - provide a better view on the market.
 - build up company's reputation and credibility
 - earn more trust from client/build up the trust bridge.
