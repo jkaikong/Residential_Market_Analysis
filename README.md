@@ -2,7 +2,7 @@
 ### Overview
 - Downloaded the Fremont residential data set from Bay East Association Paragon.
 - Previewed the data set and performed basic cleaning on the data set.
-- Engineered featrues, created visualization plot for features, performed exploratory data analysis.
+- Engineered features, created visualization plot for features, performed exploratory data analysis.
 - Utilized scikit learn to perform OLS Regression and Multiple-Linear Regression model, then use Cross-validation to evaluate model performance.
 
 ### Code and Resources Used
