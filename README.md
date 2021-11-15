@@ -1,18 +1,26 @@
-# Individual project - Fremont residential market analysis
-### Why
-Benefits to Company:
-- provide a better view on the market.
-- build up company's reputation and credibility
-- earn more trust from client/build up the trust bridge.
-- attract more potential client/increase the referral likelihood. Clients may share the company with families/friends if we win their trust and provide a great experience to them.
-- expand realtors' knowledge, level up their skill level.
-- utilize the data to help realtor on building their farming strategies.
+# Data Analysis Project - Fremont residential market analysis
+### Overview
+- Downloaded the Fremont residential data set from Bay East Association Paragon.
+- Previewed the data set and performed basic cleaning on the data set.
+- Engineered featrues, created visualization plot for features, performed exploratory data analysis.
+- Utilized scikit learn to perform OLS Regression and Multiple-Linear Regression model, then use Cross-validation to evaluate model performance.
 
-Benefits to Clients:
-- learn the basic market situation.
-- adjust their purchasing plan.
+### Code and Resources Used
+**Python Version**: 3.7
+**Packages**: pandas, numpy,matplotlib, seaborn, sklearn
 
 ### Project Process
-1. Preview and Data Cleaning
-2. Exploratory Data Analysis
-3. Price Prediction
+Section 1. Preview and Data Cleaning
+  - Drop the row with missing value in BR, Bth, and YrBlt columns
+  - Drop the Gar column since we have the GarSp to show if the house has garage. The column also contain input mistake.
+  - Replace 'NaN' with 0 in PB, GarSp, HOA fee columns
+  - Remove '$' and ',' from LP, SP, and Lot SqFt columns
+  - Change LP, SP, BR, Bth, PB, GarSp, YrBlt, HOA Fee data type to 'int'
+
+Section 2. Exploratory Data Analysis
+  - Histogram, count-plot, line-plot, correlation heatmap
+
+Section 3. Price Prediction Model
+  - OLS (Ordinary Least Square)
+  - Multiple linear regression
+  - Cross-validation
